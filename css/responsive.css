@@ -1,0 +1,185 @@
+@media screen and (max-width:768px) {
+
+	/* -------------------------------------- */
+	/* base_sp
+	/* -------------------------------------- */
+	.section-wrapper {
+		padding: 100px 0 40px;
+	}
+
+	.section-title {
+		padding: 0 4vw;
+		font-size: 3rem;
+		margin-bottom: 50px;
+	}
+
+	.section-title::after {
+		width: 90px;
+	}
+
+	.section-inner {
+		padding: 0 4vw;
+	}
+
+	.section-bot {
+		font-size: 4rem;
+		padding: 0 4vw;
+	}
+
+	.link-btn {
+		margin-bottom: 40px;
+
+	}
+
+	.pc-br {
+		display: none;
+	}
+
+	.sp-br {
+		display: block;
+	}
+
+	/* -------------------------------------- */
+	/* header_sp
+	/* -------------------------------------- */
+	.header {
+		padding: 30px 4vw 0;
+	}
+
+	.header-nav {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		background-color: var(--header-bg-color);
+	}
+
+	.nav-list {
+		height: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.burger-btn {
+		display: block;
+		position: absolute;
+		top: 30px;
+		right: 4vw;
+	}
+
+	.burger-btn .bar {
+		display: block;
+		height: 3px;
+		width: 30px;
+		background-color: var(--sub-color);
+		transition: .3s;
+	}
+
+	.bar-top,
+	.bar-mid {
+		margin-bottom: 8px;
+	}
+
+	.burger-btn.cross .bar-top {
+		transform: rotate(45deg) translate(8px, 8px);
+		transition: .3s;
+	}
+
+	.burger-btn.cross .bar-mid {
+		opacity: 0;
+	}
+
+	.burger-btn.cross .bar-bot {
+		transform: rotate(-45deg) translate(8px, -8px);
+		transition: .3s;
+	}
+
+	body.no-scroll {
+		overflow: hidden;
+	}
+
+	button {
+		background-color: transparent;
+		border: none;
+		cursor: pointer;
+		outline: none;
+		padding: 0;
+		appearance: none;
+	}
+
+	/* -------------------------------------- */
+	/* first view_sp
+	/* -------------------------------------- */
+	.main-copy {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		white-space: nowrap;
+	}
+
+	.en-copy {
+		font-size: 9.8vw;
+	}
+
+	.jp-copy {
+		font-size: 8vw;
+	}
+
+	/* -------------------------------------- */
+	/* concept_sp
+	/* -------------------------------------- */
+	.concept-lead {
+		font-size: 2rem;
+		margin-bottom: 32px;
+	}
+
+	.concept-text {
+		font-size: 1.6rem;
+	}
+
+	.concept-content {
+		display: block;
+		margin-bottom: 40px;
+	}
+
+	.concept-text {
+		margin-bottom: 30px;
+	}
+
+	.concept-img-wrapper {
+		margin: 0;
+	}
+
+	/* -------------------------------------- */
+	/* wroks_sp
+	/* -------------------------------------- */
+	.works-list {
+		padding: 0 4vw;
+		margin-bottom: 80px;
+	}
+
+	.works-item {
+		width: 320px;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	/* -------------------------------------- */
+	/* service_sp
+	/* -------------------------------------- */
+	.service-list {
+		margin-bottom: 40px;
+	}
+
+	.service-item {
+		margin-bottom: 30px;
+	}
+
+	.service-item a {
+		min-height: 250px;
+	}
+
+}
